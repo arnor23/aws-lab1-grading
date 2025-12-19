@@ -28,7 +28,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install pytest boto3
+
 
       - name: Run pytest
         run: |
